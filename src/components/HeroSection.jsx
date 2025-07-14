@@ -10,7 +10,7 @@ function HeroSection (){
                         <h1 className='text-9xl font-bold uppercase'>Here to connect</h1>
                         <h4 className='text-4xl uppercase font-medium mt-10 text-fuchsia-600'>Untangle the web with us</h4>
                         <div>
-                              <button className='mt-40 bg-gradient-to-r from-[#4949a6] to-[#c757be] text-white py-4 px-10 rounded-4xl text-2xl font-medium'>CONNECT HERE</button>
+                              <button className='mt-40 bg-gradient-to-r from-[#4949a6] to-[#c757be] text-white py-4 px-10 rounded-4xl text-2xl font-medium'>READ MORE</button>
                         </div>
                         
                   </div>
