@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-gradient-to-r from-[#3f0447] to-[#0e0e3b]   text-white px-10 md:px-20 py-10">
+    <div className="bg-gradient-to-r from-[#3f0447] to-[#0e0e3b]   text-white px-10 py-10 w-full">
        <Navbar/>
        <HeroSection/>
       

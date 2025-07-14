@@ -5,12 +5,12 @@ import hero5 from '../assets/hero5.gif';
 function HeroSection (){
       return(
             <>
-            <div className='w-full flex flex-row items-center justify-between '>
+            <div id='#home' className='w-full flex flex-row items-center justify-between '>
                   <div className='flex w-1/2 flex-col mt-30'>
                         <h1 className='text-9xl font-bold uppercase'>Here to connect</h1>
                         <h4 className='text-4xl uppercase font-medium mt-10 text-fuchsia-600'>Untangle the web with us</h4>
                         <div>
-                              <button className='mt-40 bg-gradient-to-r from-[#4949a6] to-[#c757be] text-white py-4 px-10 rounded-4xl text-2xl font-medium'>READ MORE</button>
+                              <button className='mt-40 bg-gradient-to-r from-[#4949a6] to-[#c757be] text-white py-4 px-10 rounded-4xl text-2xl font-medium uppercase'>Connect here</button>
                         </div>
                         
                   </div>
