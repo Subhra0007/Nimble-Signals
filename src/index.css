@@ -11,12 +11,12 @@
 .neon-text {
   color: #fff;
   text-shadow:
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 30px #fff,
-    0 0 40px #a855f7,
-    0 0 70px #a855f7,
-    0 0 80px #a855f7,
-    0 0 100px #a855f7;
-}
+    0 0 10px #848383,
+    0 0 20px #8e8a8a,
+    0 0 30px #908e8e,
+    0 0 40px #0c013f,
+    0 0 70px #260248,
+    0 0 80px hsl(270, 95%, 15%),
+    0 0 100px #20023c;
+} 
 

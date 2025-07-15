@@ -1,7 +1,7 @@
 import ProductCards from "./ProductChild/ProductCards";
-import product1 from '../assets/product1';
-import product2 from '../assets/product2';
-import product3 from '../assets/product3';
+import product1 from '../assets/product1.png';
+import product2 from '../assets/product2.png';
+import product3 from '../assets/product3.png';
 
 function Products (){
 
@@ -14,11 +14,17 @@ const products = [
 
       return(
             <>
-            <div>
-                        <h1>Our Products</h1>
-                        <div>
-
-                        </div>                  
+            <div id="product" className="flex flex-col mt-5 max-w-[78rem] px-30 ">
+                  <h1 className="text-6xl font-bold uppercase  tracking-wider neon-text">Our Products</h1>
+                  <div className="flex flex-row  items-center mt-15 justify-around gap-5">
+                        {products.map(product => (
+                        <ProductCards 
+                        key={product.id} 
+                        title={product.title}
+                        image={product.image}
+                        /> 
+                    ))}
+                  </div>                  
              </div>
             </>
       )
