@@ -10,9 +10,9 @@ function Accessories (){
       ];
       return(
             <>
-            <div className="grid grid-rows-1 mt-20 max-w-[78rem] px-30">
-                  <h1 className="text-6xl font-bold  uppercase  tracking-wider neon-text">Accessories</h1>
-                  <div className="grid grid-cols-2   mt-15  justify-items-center  gap-5">
+            <div className="grid grid-rows-1 md:mt-20 sm:mt-15 max-w-[80rem] px-30">
+                  <h1 className="lg:text-6xl md:text-5xl sm:text-4xl font-bold  uppercase  tracking-wider neon-text">Accessories</h1>
+                  <div className="grid md:grid-cols-2 sm:grid-cols-1 md:mt-15 sm:mt-10 justify-items-center  gap-5">
                         {
                               accessories.map(accessory =>(
                                     <Network

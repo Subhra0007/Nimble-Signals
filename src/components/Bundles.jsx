@@ -12,9 +12,9 @@ function Bundles (){
 
       return(
             <>
-            <div className="flex flex-col mt-20 max-w-[78rem] px-30">
-                  <h1 className="text-6xl font-bold uppercase  tracking-wider neon-text">BUNDLES</h1>
-                  <div className="flex flex-row  items-center mt-15 justify-around gap-5">
+            <div className="flex flex-col md:mt-20 sm:mt-15 max-w-[80rem] px-30">
+                  <h1 className="sm:text-4xl md:text-5xl lg-text-6xl font-bold uppercase  tracking-wider neon-text">BUNDLES</h1>
+                  <div className="flex md:flex-row sm:flex-col md:flex-wrap  items-center md:mt-15 sm:mt-10 justify-around gap-5">
                         {BundlesPackages.map(BundlesPackage =>(
                               <Package
                                     key={BundlesPackage.id}

@@ -14,9 +14,9 @@ const products = [
 
       return(
             <>
-            <div id="product" className="flex flex-col mt-5 max-w-[78rem] px-30 ">
-                  <h1 className="text-6xl font-bold uppercase  tracking-wider neon-text">Our Products</h1>
-                  <div className="flex flex-row  items-center mt-15 justify-around gap-5">
+            <div id="product" className="flex flex-col mt-5 max-w-[80rem] px-30 ">
+                  <h1 className="lg:text-6xl sm:text-4xl md:text-5xl font-bold uppercase  tracking-wider neon-text">Our Products</h1>
+                  <div className="flex sm:flex-col lg:flex-row md:flex-wrap items-center mt-15 justify-around gap-5">
                         {products.map(product => (
                         <ProductCards 
                         key={product.id} 

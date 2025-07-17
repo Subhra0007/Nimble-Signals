@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <div className=" bg-gradient-to-r from-blue-950 to-purple-900  text-white  overflow-y-auto overflow-x-hidden ">
+    <div className=" bg-gradient-to-r from-blue-950 to-purple-900  text-white  overflow-y-auto overflow-x-hidden">
        <Navbar/>
        <HeroSection/>
        <Products/>

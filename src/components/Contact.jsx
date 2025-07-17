@@ -4,7 +4,7 @@ import Logo from '../assets/logo.png'
 function Contact (){
       return(
             <>
-            <div id='contact'  className='min-h-screen grid grid-cols-1 md:grid-cols-2 mt-20 max-w-[78rem] gap-30'>
+            <div id='contact'  className='min-h-screen grid grid-cols-1 md:grid-cols-2 mt-20 max-w-[80rem] md:gap-30 sm:gap-50'>
                   <div>
                         <div>
                               <video className="absolute z-0 h-full"
@@ -20,8 +20,8 @@ function Contact (){
                                           <h4 className='uppercase text-xl font-medium mt-20'>Nimble Signals</h4>
                                     </div>
                         
-                        <h1 className="text-6xl font-bold uppercase  tracking-wider neon-text py-10">Connect to what counts</h1>
-                        <h4 className='text-xl font-bold mt-2 uppercase'>Let's get started</h4>
+                        <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase  tracking-wider neon-text py-10">Connect to what counts</h1>
+                        <h4 className='lg:text-xl md:text-lg sm:text-sm font-bold mt-2 uppercase'>Let's get started</h4>
                         </div>
                   </div>
                    </div>
